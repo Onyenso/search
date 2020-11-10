@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar" style="height: 60px; background-color: rgb(236, 236, 236);">
+            <a class="navbar-brand" href="index.html"><img src="googlelogo.png" height="30px" alt="" loading="lazy"></a>
+        </nav>
+
+            <div>
+                <p id="p">Advanced Search</p>
+            </div>
+
+            <hr style="margin-top: 70px;">
+
+            <div style="top: 5%; right: 10px; position: absolute; margin-bottom: 5px;">
+                <nav>
+                    <a href="index.html">Google Search</a> |
+                    <a href="img_search.html">Image Search</a>
+                </nav>
+            </div>
+
+        <div style="padding: 40px;">
+
+            <p style="font-size: 20px;">Find pages with...</p>
+
+            <form action="https://www.google.com/search" style="font-size: small; font-weight: 500;">
+                
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">all these words:</label>
+                    <div class="col-md-5">
+                      <input type="text" class=" form-control form-control-sm" name="as_q">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                    <div class="col-md-5">
+                      <input type="text" class=" form-control form-control-sm" name="as_epq">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">any of these words:</label>
+                    <div class="col-md-5">
+                      <input type="text" class=" form-control form-control-sm" name="as_oq">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">none of these words:</label>
+                    <div class="col-md-5">
+                      <input type="text" class=" form-control form-control-sm" name="as_eq">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="offset-md-5 col-md-1">
+                      <input type="submit" class="btn btn-sm btn-primary offset-md-10" value="Advanced Search">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+        
+
+        <footer class="fixed-bottom">
+            <div>
+                Nigeria
+            </div>
+            <nav id="nav" class="navbar navbar-expand navbar-light">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Help</a>
+                    <a class="nav-link" href="#">Privacy</a>
+                    <a class="nav-link" href="#">Terms</a>
+                </div>
+              </nav>
+        </footer>
+
+    </body>
+</html>

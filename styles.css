@@ -1,0 +1,25 @@
+footer > div
+{
+    background-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    padding: 10px;
+}
+
+#nav
+{
+    background-color: lightgrey;
+    height: 30px;
+}
+
+#p
+{
+    font-size: 20px;
+    color: rgb(228, 21, 21);
+    position: absolute;
+    margin-top: 20px;
+    left: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
